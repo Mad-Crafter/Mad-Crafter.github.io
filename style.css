@@ -17,5 +17,12 @@ header h1 {
   margin: 1% 0px;
 }
 .nav-item {
-  border: 0px 1px solid rgb()
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(48, 52, 56);
+  width: 33,3%;
+  height: inherit;
+}
+#main-navigation {
+  width: 100%;
 }
