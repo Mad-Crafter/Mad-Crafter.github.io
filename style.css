@@ -2,7 +2,38 @@
 #index {
   background-color: rgb(89, 96, 105);
 }
+
+/* Info */
+#info {
+  background-color: rgb(89, 96, 105);
+}
+
+/* News */
+#news {
+  background-color: rgb(89, 96, 105);
+}
+
 /* General layouts */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navigation bar */
+.navbar {
+  background-color: rgb(57, 62, 68);
+}
+.nav-item {
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  color: #FFFFFF;
+}
+
 header {
   background-color: rgb(57, 62, 68);
   color: #FFFFFF;
@@ -11,24 +42,14 @@ header {
 header h1 {
   padding: 1%;
 }
-
-/* Navigation bar */
-.navbar {
-  background-color: rgb(57, 62, 68);
-}
-.nav-item {
-  border: 1px solid rgb(48, 52, 56);
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  background-size: cover;
+}
+ul li {
+  cursor: pointer;
+  margin: 0;
   text-align: center;
-  color: #FFFFFF;
-}
-.nav-link {
-  text-decoration: none;
-  cursor: pointer;
-  padding-left: 33%;
-}
-.nav-link:hover {
-  text-decoration: none;
-  cursor: pointer;
 }
