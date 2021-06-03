@@ -2,6 +2,16 @@
 #index {
   background-color: rgb(89, 96, 105);
 }
+#opening {
+
+}
+#opening img {
+  float: left;
+  margin: 4%;
+}
+#opening p {
+  float: left;
+}
 
 /* Info */
 #info {
@@ -21,6 +31,9 @@ a {
 a:hover {
   text-decoration: none;
   color: inherit;
+}
+p {
+  color: #FFFFFF;
 }
 
 /* Navigation bar */
