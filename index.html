@@ -7,6 +7,7 @@
       <meta name="keywords" content="MadCrafter, minecraft, server">
       <meta name="description" content="MadCrafter, a survival minecraft server. IP=play.madcrafter.org">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="icon" href="//dunb17ur4ymx4.cloudfront.net/webstore/logos/635d975b449de82c635269e353f674bb42222b64.png" type="image/x-icon">
           <title>MadCrafter | Homepage</title>
@@ -38,7 +39,54 @@
       <div id="index-content">
         <div id="opening">
           <img src="img/spawn.png" width=40% height=inherit title="spawn">
-          <p>This will be the place you spawn</p>
+          <h2>Small but steady</h2>
+          <p>
+            This is still a pretty small server, but we as staff try to give you as much fun as possible!
+            We have a class system, with special power and our own added class specific items, rare items, player ranks, countries and wars, events and even more!
+            We try to add as much fun stuff to where it isn't too weird and unorganised. We always take request and we are always willing to listen to your ideas!
+            We hope to see you soon, and goodluck!
+          </p>
+        </div>
+        <br>
+        <div id="ranks">
+          <!-- Trigger the Modal -->
+          <img id="myImg" src="img_snow.jpg" alt="Snow" style="width:100%; max-width:300px">
+
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+          </div>
+          <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+            }
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+            modal.style.display = "none";
+            }
+          </script>
         </div>
       </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
