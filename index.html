@@ -16,6 +16,7 @@
     <body id="index">
       <header>
         <h1><a href="index.html" target="_self">MadCrafter</a></h1>
+        <!--<img src="img/MadCrafter.png">-->
       </header>
       <nav class="navbar navbar-expand-md">
         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
@@ -50,8 +51,7 @@
         <br>
         <div id="ranks">
           <!-- Trigger the Modal -->
-          <img id="myImg" src="img_snow.jpg" alt="Snow" style="width:100%; max-width:300px">
-
+          <img id="veteran" src="" alt="Veteran rank" style="width:100%; max-width:300px">
 
           <!-- The Modal -->
           <div id="myModal" class="modal">
@@ -63,16 +63,27 @@
             <img class="modal-content" id="img01">
 
             <!-- Modal Caption (Image Text) -->
-            <div id="caption"></div>
+            <div id="veteran_caption">
+              <p>
+                The veteran rank is the lowest rank you can buy, although it's the lowest it really isn't weak! You'll get:
+              </p>
+              <ul id="veteran_list">
+                <li>Veteran rank in the mc server</li>
+                <li>Veteran rank in the discord server</li>
+                <li>/WB (create a workbence with a command)</li>
+              </ul>
+            </div>
           </div>
+
+
           <script>
             // Get the modal
             var modal = document.getElementById("myModal");
 
             // Get the image and insert it inside the modal - use its "alt" text as a caption
-            var img = document.getElementById("myImg");
+            var img = document.getElementById("veteran");
             var modalImg = document.getElementById("img01");
-            var captionText = document.getElementById("caption");
+            var captionText = document.getElementById("veteran_caption");
             img.onclick = function(){
             modal.style.display = "block";
             modalImg.src = this.src;
