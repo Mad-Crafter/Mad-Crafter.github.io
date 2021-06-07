@@ -8,7 +8,6 @@
 #opening img {
   float: left;
   margin: 4%;
-  border: 1px solid white;
 }
 #opening p {
   float: left;
@@ -24,6 +23,9 @@
   margin-top: 9%;
   margin-left: 0;
   margin-bottom: 1%;
+}
+#ranks {
+  float: left;
 }
 
 /* Info */
