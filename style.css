@@ -1,18 +1,23 @@
 /* Index */
 #index {
-  background-color: rgb(89, 96, 105);
+  background-image: url(img/MadCrafter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#index-content {
+  
 }
 #opening {
-
+  width: 100%;
 }
 #opening img {
   float: left;
   margin: 4%;
-  border: 1px solid white;
 }
 #opening p {
   float: left;
-  width: 30%;
+  width: 40%;
   margin: 10%;
   margin-left: 0;
   margin-top: 0;
@@ -20,10 +25,15 @@
 }
 #opening h2 {
   float: left;
+  width: 40%;
   margin-right: 9%;
   margin-top: 9%;
   margin-left: 0;
   margin-bottom: 1%;
+}
+
+#veteran {
+  float: right;
 }
 
 /* Info */
@@ -58,20 +68,27 @@ p, h2 {
   background-size: cover;
   text-align: center;
   color: #FFFFFF;
+  min-height: 50px;
 }
 
 header {
   background-color: rgb(57, 62, 68);
   color: #FFFFFF;
   background-size: cover;
+  min-height: 150px;
+  max-height: 200px;
+  position: sticky;
 }
 header h1 {
   padding: 1%;
+  float: left;
 }
 header img {
   float: right;
-  position: sticky;
-
+  position: absolute;
+  height: 100%;
+  width: inherit;
+  max-height: 200px;
 }
 ul {
   list-style-type: none;
