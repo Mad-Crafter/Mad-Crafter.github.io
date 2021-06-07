@@ -86,7 +86,7 @@
             img.onclick = function(){
             modal.style.display = "block";
             modalImg.src = this.src;
-            captionText.innerHTML = this.alt;
+            captionText.innerHTML = document.getTextById("veteran_caption");
             }
 
             // Get the <span> element that closes the modal
